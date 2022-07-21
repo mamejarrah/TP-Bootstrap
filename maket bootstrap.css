@@ -1,0 +1,171 @@
+body{
+	background-color: #f0f8ff;
+	margin: 0px;
+	padding: 0px;
+
+
+
+}
+
+.navbar-brand{
+	color:#000080;
+	font-size: 1.5em;
+
+}
+.navbar-nav{
+	background-color: #000080;
+}
+.nav-link{
+	color: white;
+}
+.btn {
+	color: #000080;
+
+}
+header{
+	background-color: white;
+	border-bottom: 2px double #000080;
+	border-left: 2px double #000080;
+	border-left: none;
+	border-top: none;
+}
+.container{
+	font-size: 1.5em;
+
+}
+h2{
+	color: #000080;
+}
+#btn{
+	font-size: 2em;
+	color: #000080;
+	border-radius: 3px;
+	font-family: gras;
+}
+.s2{
+	text-align: center;
+	padding: 70px 10px 10px 10px;
+	color: white;
+	font-size: normal;
+	background-color: #000080;
+}
+.s2 h2{
+	color: white;
+	font-size: 2em;
+}
+.s3{
+	text-align: center;
+	padding: 60px 20px 10px 20px;
+
+}
+.s3 h1{
+	color: #000080;
+	text-decoration: overline;
+	font-size: 3em;
+	font-family: gras;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+#div2 {
+	background-color:  #00ffff;
+	border-radius: 10px;
+	padding: 100px 100px 30px 90px;
+}
+.s4 h2{
+	
+color: #000080;
+	font-size: 3em;
+	font-family: gras;
+	padding-top: 20px;
+	text-align: center;
+
+}
+.s4{
+	text-align: center;
+	padding: 60px 40px 10px 40px;
+
+}
+#i1{
+	margin-right: 120px;
+}
+#i2{
+	margin-left: 150px;
+}
+.mb-3{
+	padding: 0px 200px 0px 200px;
+	color: white;
+
+}
+.s5 h2{
+	text-align: center;
+	font-size: 3em;
+	text-decoration: overline;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+#form{
+	background-color: #000080;
+	font-size: 1em;
+	margin: 30px 210px 10px 210px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+footer{
+	padding: 70px 0px 20px 0px;
+	background-color: #000;
+	margin-top: 70px;
+	color: #ffff;
+}
+.dia a{
+	position: relative;
+	margin: 0 10px;
+	font-size: 2em;
+	height: 60px;
+	width: 50px;
+	background-color: white;
+	display: inline-block;
+	border-radius: 5px;
+	transition: 0.2s ease-in-out;
+	overflow: hidden;
+	box-shadow: 0px 0px 5px #ffffff;
+}
+.dia a:hover{
+	transform: scale(1.2);
+	border-radius: 2px 50px 2px;
+}
+.dia i{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: grey;
+	transition: 0.2s ease-in-out;
+}
+.dia a:hover i{
+	color: white;
+	animation: bounce 0.5s ease-in-out;
+}
+.dia a::before{
+	content: "";
+	position: absolute;
+	background: linear-gradient(to left,#8e2de2,#4a00e0);
+	margin: 50px;
+
+}
+.dia a:hover::before{
+	margin: 0px;
+	left: 50%;
+	top: 50%;
+
+}
+@keyframes bounce{
+	0%{
+		font-size: 3rem;
+	}
+	50%{
+		font-size: 4rem;
+	}
+	100%{
+		font-size: 3rem;
+	}
+}
